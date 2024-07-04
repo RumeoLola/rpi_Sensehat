@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #1b1103;
+}
+
+.sensor-data {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.sensor-data p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.sensor-data span {
+    font-weight: bold;
+    color: #000;
+}
+
+.sensor-data i {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .sensor-data {
+        width: 80%;
+        padding: 10px;
+    }
+}
